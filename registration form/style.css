@@ -16,3 +16,40 @@ h1,
 h3 {
   color: #b92b27;
 }
+/* descendent selector */
+.post a{
+  color: purple;
+  background-color: yellow;
+}
+nav ul li a {
+  color: hotpink;
+}
+p+h3{
+  text-decoration: underline;
+}
+.upvote+button{
+  background-color: cornflowerblue;
+  color: darkblue;
+}
+div > input {
+  background-color: darksalmon;
+}
+input[type="text"]{
+  color: red;
+}
+input[type="password"]{
+  color: green;
+}
+input[type]{
+  background-color: ghostwhite;
+}
+button:hover{
+  background-color:black;
+  color: white;
+}
+h3:hover{
+  text-decoration: none;
+}
+button :active{
+  background-color: orange;
+}
