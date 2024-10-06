@@ -21,7 +21,7 @@ h3 {
   color: purple;
   background-color: yellow;
 }
-nav ul li a {
+nav ul li  {
   color: hotpink;
 }
 p+h3{
@@ -50,6 +50,33 @@ button:hover{
 h3:hover{
   text-decoration: none;
 }
-button :active{
-  background-color: orange;
+button:active{
+  background-color: pink;
+  color: black;
+}
+
+p:active{
+  font-weight: bold;
+  color: green;
+}
+input[type="radio"]:checked + label{
+  color: red;
+  font-weight: bold;
+}
+div:nth-of-type(2){
+  background-color: blanchedalmond;
+}
+
+h1::first-letter{
+  color: green;
+}
+p{
+  color: red;
+  font-weight: bold;
+}
+p::first-line{
+  color: purple;
+}
+p::selection{
+  background-color: rgb(199,192,58);
 }
