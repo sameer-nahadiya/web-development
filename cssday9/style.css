@@ -1,20 +1,23 @@
 #container {
     border: 2px solid black;
-    height: 300px;
+    height: 600px;
     width: 80%;
     background-color: azure;
     margin: 10px auto;
     display: flex;  
     flex-direction: row;
-    justify-content: center;
-    
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+    /* align-items: baseline; */
+    align-content: space-evenly;
+
 }
 h1 {
     text-align: center;
 }
 #container div {
-    height: 30px;
-    width: 60px;
+    height: 100px;
+    width: 300px;
     color: white;
     text-align: center;
     font-size: 1.5em;
